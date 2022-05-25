@@ -1,0 +1,135 @@
+*{
+  font-family:  Poppins;
+  font-size: 15px;
+}
+
+body{
+  padding: 0;
+  margin: 0;
+}
+
+.background{
+  background: linear-gradient(to right, #f5f7fa, #c3cfe2);
+  height: 100%;
+}
+
+
+
+
+
+
+thead tr:hover{
+  background-color: transparent;
+  cursor: context-menu;
+}
+
+tr:hover{
+  cursor: pointer;
+  height: 100%;
+}
+
+table{
+  border-collapse: collapse;
+  margin-top: 10px;
+  max-width: 100%;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0px 0 5px 0px rgba(0, 0, 0, 0.15);
+}
+
+.main {
+  color: black;
+  text-align: left;
+  border-top: 0.1px solid  #dadce059;
+  border-bottom:0.1px solid  #dadce059;
+}
+
+tr .team{
+  text-align: left;
+}
+
+
+tr th{
+  text-align: center;
+}
+
+
+tr td{
+  color: rgb(0, 0, 0);
+  text-align: left;
+  border-top: 0.1px solid  #dadce059;
+  border-bottom:0.1px solid #dadce059;
+  opacity: 0.95;
+}
+.main th{
+  font-weight: normal;
+}
+
+.symbol img{
+  margin: 0;
+  position: relative;
+  top: 1px;
+  height: 16px;
+  width: 16px;
+}
+
+img{
+  height: 6%;
+  width: 6%;
+  margin-left: 3px;
+  margin-right: 8px;
+  position: relative;
+  top: 5px;
+}
+
+
+#j{
+  position: relative;
+  top: -5px;
+  left: 0px;
+}
+
+.last5{
+  text-align: center;
+}
+
+h1{
+  text-align: center;
+  font-size: 45px;
+  color:rgba(0, 0, 0, 0.547);
+}
+.j {
+  width: 300px;
+}
+
+.season {
+  color: black;
+  font-size: 14px;
+  text-align: left;
+  line-height: 5px;
+}
+
+
+thead tr td{
+  padding: 10px 18px;
+  margin: 0;
+}
+thead tr th{
+  padding: 10px 15px;
+  margin: 0;
+}
+
+tr td{
+  padding: 0 15px;
+}
+
+tr td{
+  font-size: 15px;
+}
+.year{
+  color: rgba(10, 9, 10, 0.326);
+  font-size: 20px;
+  text-align: left;
+  font-weight: 800;
+  font-family: Poppins;
+}
